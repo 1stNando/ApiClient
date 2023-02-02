@@ -50,7 +50,7 @@ namespace ApiClient
                         {
                             Console.WriteLine($"{joke.type}, {joke.setup}, {joke.punchline}, {joke.id}");
                         }
-                        Console.ReadLine();
+                        Console.Read();
                         break;
 
                     default:
